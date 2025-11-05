@@ -65,6 +65,27 @@ for zar in zarlar:                                #sonucu yazdırır (tam anlama
 
 
 
+#---------------------------------------
+
+
+birinci_sayi = int(input("birinci sayıyı giriniz: "))
+ikinci_sayi = int(input("ikinci sayıyı giriniz: "))
+islem = input("yapmak istediğiniz işleni giriniz (örn. + - * /): ")
+
+if islem == "+":
+    print(birinci_sayi + ikinci_sayi)
+elif islem == "-":
+    print(birinci_sayi - ikinci_sayi)
+elif islem == "*":
+    print(birinci_sayi * ikinci_sayi)
+elif islem == "/":
+    print(birinci_sayi / ikinci_sayi)
+else:
+    print("yanlış input!")
+
+      #yorum satırına gerek yok
+
+#-----------------------------------------
 
 
 
