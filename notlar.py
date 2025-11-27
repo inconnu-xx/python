@@ -45,7 +45,7 @@ print(len(not1)) #kelimem kac harfli. (saymaya sıfırdan baslar)
 print(len(not1 + not2)) #örn.
 #-------
 # f string 
-#stringin icine değer (değisken) gömmeye yarar. string içinde python kodu çalıştırarak dinamik metin yazmanın en temiz hali
+#stringin icine değer (değisken) gömmeye yarar. string içinde python kodu çalıştırarak dinamik metin yazmanın en temiz hali.
 #parantezin icine, iki tırnağın dısına f yazarız ve değer gireceğimiz yere {} küme parantezi yazariz.
 yas = 23
 meslek = "tüccar"
@@ -57,7 +57,72 @@ print(f"{yas} yaşındayım, {meslek} olarak calişiyorum.")
 #şuan bu bilgiler ile ekrana birşeyler yazdırmak dışında pek birşey yapamasakta döngülere geldiğimizde daha eğlenceli
 #hale gelecektir ve birşeyler ortaya cıkınca dahada motive olacaksınız.
 
+#--------------------------------------------------------------------
 
+#İNTEGER, FLOAT. (tam sayı, ondalık sayı)
+#integer ve float tipleri tırnak icinde yazmaya gerek yoktur cünku makine sayılarla calişir ve sayının sayı olduğunu anlar.
+
+sayi1 = 3
+sayi2 = 2.7
+
+print(sayi1)
+
+#type fonksiyonu, değerin tipini gösterir. (int, float, str)
+print(type(sayi1))
+
+#5 üzeri 100 sonucu bulmak icin (kuvvet alma)
+uzeri = 5 ** 100
+print(uzeri)
+
+#bölme işlemi icni
+bolu = 30 / 8
+print(bolu)
+
+#MATEMATİKSEL İŞLEMLER (integer ve floatta calişir)
+
+#toplama "+"
+print(7 + 3)
+print(7 + 3.5)
+
+#cıkartma "-"
+print(7 - 3)
+print(7 - 3.5)
+
+#carpma "*"
+print(7 * 3)
+print(7 * 3.5)
+
+#bolme "/"
+print(7 / 3)
+print(7 / 3.5)
+
+#tamsayı bolme "//"
+print(7 // 3)
+print(7 // 3.5)
+
+#kuvvet alma "**"
+print(7 ** 3)
+print(7 ** 3.5)
+
+#mutlak değer "abs"
+print(abs(-12))
+print(abs(-12.5))
+
+#yuvarlama "round"
+print(22/7) #kusuratlı böler
+print(round(22/7)) #hangi tam sayıya yakınsa ona yuvarlar
+
+print(5.8625485215565) #kusuratlı yazar
+print(round(5.8625485215565)) #angi tam sayıya yakınsa ona yuvarlar
+
+#kac basamak yazdırmak istersek ikinci parametre olarak girelim
+print(round(5.8625485215565, 5)) #tam sayıdan sonraki 5 basamagida yazdırır. basamakları da yuvarlar örn. 879 = 88
+
+#İSLEM ÖNCELİĞİ
+#günlük hayattaki gibi önce parantez ici sonra carpma ve bölme sonra toplama ve cıkarma. örn.
+print(3 * 5 + 6)
+print(3 + 5 * 6)
+print((3 + 2) * 4 + 3)
 
 
 
