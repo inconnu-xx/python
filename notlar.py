@@ -78,6 +78,8 @@ print(uzeri)
 bolu = 30 / 8
 print(bolu)
 
+#---------
+
 #MATEMATİKSEL İŞLEMLER (integer ve floatta calişir)
 
 #toplama "+"
@@ -118,13 +120,56 @@ print(round(5.8625485215565)) #angi tam sayıya yakınsa ona yuvarlar
 #kac basamak yazdırmak istersek ikinci parametre olarak girelim
 print(round(5.8625485215565, 5)) #tam sayıdan sonraki 5 basamagida yazdırır. basamakları da yuvarlar örn. 879 = 88
 
+#----------
+
 #İSLEM ÖNCELİĞİ
 #günlük hayattaki gibi önce parantez ici sonra carpma ve bölme sonra toplama ve cıkarma. örn.
 print(3 * 5 + 6)
 print(3 + 5 * 6)
 print((3 + 2) * 4 + 3)
 
+#---------
 
+#KARŞILAŞTIRMA OPERATÖRLERİ
+
+karsilastir1 = 5
+karsilastir2 = 10
+
+#esit mi (2 degeri vardır, true, false)
+print(karsilastir1 == karsilastir2)
+
+#esit degil mi (true, false)
+print(karsilastir1 != karsilastir2)
+
+#kucuk mu (true, false)
+print(karsilastir1 < karsilastir2)
+
+#buyukmu (true, false)
+print(karsilastir1 > karsilastir2)
+
+#kucuk esittir (true, false)
+print(karsilastir1 <= karsilastir2)
+
+#buyuk esittir (true, false)
+print(karsilastir1 >= karsilastir2)
+
+#-------
+
+#int fonksiyonu, sayıya cevrilebilecek degerleri sayıya cevirir.
+
+yuz1 = "100"
+yuz2 = 100
+
+print(int(yuz1) == yuz2)
+print(str(yuz2) == yuz1)
+
+#normalde int ve str esit değildir, bu örnekte esitliyoruz
+#(int, sayıyının sadece tam kısmını alır, ondalık kısmı yoksayar)
+#int fonk. tersi str fonk. tur, değeri stringi cevirir
+
+#bunları güzel tekrar yapmak ve oturtmak gerekir
+
+#------------------------------------------------
 
 
 
