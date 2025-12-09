@@ -60,7 +60,7 @@ for i in range(1000000):                          #bir milyon kere döndür
     zar = random.randint(1,6)                     #1,6 dahil rastgele tam sayı secer
     zarlar[zar] +=1                               #anahtarın her seferinde sayısı artar
 
-for zar in zarlar:                                #sonucu yazdırır (tam anlamadım, sonra bakarız inş)
+for zar in zarlar:                                #sonucu yazdırır
     print(f"{zar} gelme olasılığı: {zarlar[zar] / 1000000}")
 
 
